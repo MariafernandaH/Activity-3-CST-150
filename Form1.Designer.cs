@@ -36,9 +36,11 @@ namespace Activity1
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(213, 212);
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 22F);
+            this.button1.Location = new System.Drawing.Point(36, 49);
+            this.button1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(169, 49);
+            this.button1.Size = new System.Drawing.Size(219, 121);
             this.button1.TabIndex = 0;
             this.button1.Text = "Click this button";
             this.button1.UseVisualStyleBackColor = true;
@@ -46,9 +48,11 @@ namespace Activity1
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(572, 212);
+            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 22F);
+            this.button2.Location = new System.Drawing.Point(347, 49);
+            this.button2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(159, 49);
+            this.button2.Size = new System.Drawing.Size(219, 121);
             this.button2.TabIndex = 1;
             this.button2.Text = "Click this button";
             this.button2.UseVisualStyleBackColor = true;
@@ -56,9 +60,11 @@ namespace Activity1
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(902, 212);
+            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 22F);
+            this.button3.Location = new System.Drawing.Point(670, 49);
+            this.button3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(155, 48);
+            this.button3.Size = new System.Drawing.Size(234, 121);
             this.button3.TabIndex = 2;
             this.button3.Text = "Click this button";
             this.button3.UseVisualStyleBackColor = true;
@@ -66,22 +72,24 @@ namespace Activity1
             // 
             // progressBar1
             // 
-            this.progressBar1.Location = new System.Drawing.Point(270, 357);
+            this.progressBar1.Location = new System.Drawing.Point(36, 259);
+            this.progressBar1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.progressBar1.Name = "progressBar1";
-            this.progressBar1.Size = new System.Drawing.Size(334, 82);
+            this.progressBar1.Size = new System.Drawing.Size(868, 105);
             this.progressBar1.TabIndex = 3;
             this.progressBar1.Click += new System.EventHandler(this.progressBar1_Click);
             this.progressBar1.MouseClick += new System.Windows.Forms.MouseEventHandler(this.progressBar1_MouseClick);
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1695, 805);
+            this.ClientSize = new System.Drawing.Size(1018, 526);
             this.Controls.Add(this.progressBar1);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
